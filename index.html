@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Railify - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<body class="index-bg">
+
+    <header>
+        <h1>Railify 🚆</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Trains</a>
+            <a href="#">Bookings</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Find Your Train Easily</h2>
+        <p>Search, Book, and Travel with Ease</p>
+
+        <div class="search-box">
+            <input type="text" id="source" placeholder="Enter Source Station" list="stations">
+            <input type="text" id="destination" placeholder="Enter Destination Station" list="stations">
+            <datalist id="stations">
+                <option value="New Delhi"></option>
+                <option value="Mumbai Central"></option>
+                <option value="Kolkata Howrah"></option>
+                <option value="Chennai Central"></option>
+                <option value="Bangalore City"></option>
+                <option value="Hyderabad Secunderabad"></option>
+            </datalist>
+            <button onclick="searchTrains()">Search Trains</button>
+        </div>
+
+        <div id="results"></div>
+
+        <a href="login.html" class="get-started">Get Started</a>
+    </section>
+
+    <footer>
+        <p>Copyright © Hanush Singh Rajputh</p>
+    </footer>
+
+</body>
+</html>

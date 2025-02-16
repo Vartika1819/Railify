@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #121212;
+    color: #fff;
+    text-align: center;
+}
+/* Background only for index.html */
+.index-bg {
+    background: url('bg2.webp') no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 50px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+header h1 {
+    font-size: 28px;
+    color: #4CAF50;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #4CAF50;
+}
+
+.hero {
+    margin-top: 100px;
+    font-size: 24px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.search-box {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.search-box input {
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid #4CAF50;
+    background-color: #222;
+    color: white;
+    width: 250px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.search-box button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.search-box button:hover {
+    background-color: #45a049;
+}
+
+.get-started {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.get-started:hover {
+    background-color: #45a049;
+}
+.login-container {
+    width: 350px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 255, 100, 0.5);
+    text-align: center;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.login-container h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #4CAF50;
+}
+
+.login-container input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #4CAF50;
+    background-color: #222;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.login-container input:focus {
+    border-color: #00ff88;
+    box-shadow: 0 0 8px #00ff88;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.login-container button:hover {
+    background-color: #45a049;
+}
+
+#login-msg {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+footer {
+    margin-top: 380px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+.dashboard {
+    text-align: center;
+    padding: 40px;
+}
+
+.dashboard h2 {
+    font-size: 26px;
+    color: #00ff88;
+    animation: fadeIn 1.5s;
+}
+
+.dashboard-options {
+    margin-top: 20px;
+}
+
+.dashboard-options a {
+    display: inline-block;
+    background: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.dashboard-options a:hover {
+    background: #45a049;
+}
+
+/* Bookings Page */
+.bookings {
+    padding: 40px;
+    text-align: center;
+}
+
+.ticket {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 255, 100, 0.5);
+    animation: slideUp 1.5s ease-in-out;
+}
+
+.ticket h3 {
+    color: #00ff88;
+}
+
+.ticket p {
+    color: white;
+    font-size: 16px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Railify - Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Railify Dashboard 🚆</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="bookings.html">My Bookings</a>
+            <a href="#" id="logout">Logout</a>
+        </nav>
+    </header>
+
+    <section class="dashboard">
+        <h2>Welcome, Vartika! 🎉</h2>
+        <p>Manage your bookings and explore available trains.</p>
+
+        <div class="dashboard-options">
+            <a href="index.html">Search Trains</a>
+            <a href="bookings.html">View Bookings</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>Copyright © Hanush Singh Rajputh</p>
+    </footer>
+
+    <script>
+        document.getElementById("logout").addEventListener("click", function() {
+            alert("Logged out successfully!");
+            window.location.href = "login.html";
+        });
+    </script>
+
+</body>
+</html>
