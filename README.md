@@ -40,7 +40,7 @@ cd Railify
    ```sql
    CREATE DATABASE railify;
    ```
-3. Import `railify.sql` to set up tables and dummy data.
+3. Import `railify.sql` to set up tables and data.
 
 ### Step 3: Configure Database Connection
 - Open `db.php` and update your MySQL credentials if needed:
