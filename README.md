@@ -112,4 +112,4 @@ The database includes **6 train routes** for demonstration:
 ## 📜 License
 This project is for educational purposes. Feel free to use and modify! 🚀
 
-🚆 **Developed by Hanush Singh Rajputh** | 🔥 **Best UI & DBMS Project Submission!**
+🚆 **Developed by Hanush Singh Rajputh** 
