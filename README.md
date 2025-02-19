@@ -1,3 +1,4 @@
+
 # 🚆 Railify - Railway Management System
 
 **Railify** is a web-based **Railway Management System** that allows users to search for trains, view schedules, and book tickets efficiently. This project is built using **HTML, CSS, JavaScript (Frontend)** and **PHP & MySQL (Backend).**
