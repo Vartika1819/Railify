@@ -116,4 +116,7 @@ The database includes **6 train routes** for demonstration:
 ## 📜 License
 This project is for educational purposes. Feel free to use and modify! 🚀
 
-🚆 **Developed by Hanush Singh Rajputh** 
+   
+### Collaboration:   
+Frontend : [Hanush Singh Rajputh](https://github.com/hanushrajputh)  
+Backend  : [Vartika Singh](https://github.com/Vartika1819)  
